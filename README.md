@@ -28,6 +28,7 @@ Official proxy can serve about 10000 to 16000 connections per core.
 ## Python Script
 ### Install
 On your server (recommended CENTOS-7) run
+
 ``` sudo -i ```
 next
 ```bash b
@@ -60,6 +61,7 @@ This script gives you post-install API support to control the proxy. [More Info]
 ## Official Script
 ### Install
 On your server run
+
 ``` sudo -i ```
 next
 ```bash
@@ -109,6 +111,7 @@ A service name under the name of `mtg` is created for you. All of the configs ar
 Thanks to @seriyps creator of the [Erlang Proxy](https://github.com/seriyps/mtproto_proxy) you can now install the Erlang proxy with a script.
 
 **Note:** This script works on Ubuntu 18/19 , Debian 9/10 and Centos 7.
+
 ``` sudo -i ```
 next
 ```bash
