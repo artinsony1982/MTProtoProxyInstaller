@@ -27,8 +27,10 @@ Python proxy says it can serve about 4000 concurrent connections with 1 CPU core
 Official proxy can serve about 10000 to 16000 connections per core.
 ## Python Script
 ### Install
-On your server run
-```bash
+On your server (recommended CENTOS-7) run
+``` sudo -i ```
+next
+```bash b
 curl -o MTProtoProxyInstall.sh -L https://git.io/fjo34 && bash MTProtoProxyInstall.sh
 ```
 Wait until the setup finishes, you should be given the links. (using `systemctl status mtprotoproxy -l` will display said links as well)
@@ -58,6 +60,8 @@ This script gives you post-install API support to control the proxy. [More Info]
 ## Official Script
 ### Install
 On your server run
+``` sudo -i ```
+next
 ```bash
 curl -o MTProtoProxyOfficialInstall.sh -L https://git.io/fjo3u && bash MTProtoProxyOfficialInstall.sh
 ```
@@ -105,6 +109,8 @@ A service name under the name of `mtg` is created for you. All of the configs ar
 Thanks to @seriyps creator of the [Erlang Proxy](https://github.com/seriyps/mtproto_proxy) you can now install the Erlang proxy with a script.
 
 **Note:** This script works on Ubuntu 18/19 , Debian 9/10 and Centos 7.
+``` sudo -i ```
+next
 ```bash
 curl -L -o mtp_install.sh https://git.io/fj5ru && bash mtp_install.sh
 ```
